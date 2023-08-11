@@ -20,6 +20,12 @@ format used by the Zulip server that they are interacting with.
 
 ## Changes in Zulip 8.0
 
+**Feature level 202**
+
+* [`POST /register`](/api/register-queue): Added the
+  `typing_started_wait_period`, `typing _stopped_wait_period`,
+  `typing_started_expiry_period` to the response.
+
 **Feature level 201**
 
 * [`POST /zulip-outgoing-webhook`]: Renamed the notification trigger
